@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><form action="" method="get" class="form-example">
+    <div class="form-example">
+    <label for="Pseudo">Votre Pseudo*&nbsp;: </label>
+    <input type="text" name="Pseudo" id="Pseudo" placeholder="Votre Pseudo" required />
+    
+
+    <div class="form-example">
+    <label for="Mot de Passe*">Votre Mot de Passe*&nbsp;: </label>
+    <input type="password" name="Mot de passe" id="Mot de passe" placeholder="Votre Mot de Passe" required />
+    </div>
+
+    <div class="form-example">
+    <label for="email">Votre adresse e-mail*&nbsp;: </label>
+    <input type="email" name="email" id="email" placeholder="Votre adresse e-mail" class="email" required />
+    </div>
+    
+    <div class="form-example">
+    <label for="Objet du message*">Objet du message*&nbsp;: </label>
+    <select name="Objet" id="Objet">
+    <option value="">j'ai une question</option>
+    <option value="Je fais une suggestion">Je fais une suggestion</option>
+    <option value="Je rencontre un problème">Je rencontre un problème</option>
+    <option value="Autre">Autre</option>
+    
+    </select>
+    </div>
+    <div class="form-example">
+    <label for="Votre message">Votre message*&nbsp;: </label>
+    <textarea type="text" name="message" id="message" placeholder="Votre message" rows="5"  required> </textarea>
+    </div>
+    <div>
+        <label for="urgence">Niveau d'urgence*&nbsp;: </label>
+        
+        <input type="radio" name="urgence" id="Urgent" required> Urgent
+        <input type="radio" name="urgence" id="Normal" required> Normal
+        <input type="radio" name="urgence" id="Lent" checked required> Lent
+    </div>
+    <div>
+        <input type="checkbox" required>
+        <label for="condition" class="politique">J'ai lu et j'accepte <a href="">la politique de confidentialité</a> du site.
+    </div>
+    <div>
+        <input type="submit" name="Envoyer" id="Envoyer" class="Envoyer">
+    </div>
+</form>
+    
+</body>
+</html>

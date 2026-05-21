@@ -1,0 +1,114 @@
+body {
+    background-color: #333333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 550px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.form-example {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #ffffff; 
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.urgence-block {
+    text-align: center;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.inline-label {
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.politique-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.politique-block input[type="checkbox"] {
+    margin-bottom: 8px; 
+}
+
+.politique {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.politique a {
+    color: #0000ee;
+    text-decoration: underline;
+}
+
+.submit-block {
+    text-align: center;
+}
+
+#Envoyer {
+    display: inline-block;
+    background-color: #004080;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    border-radius: 2px;
+}
+
+#Envoyer:hover {
+    background-color: #002d5a;
+}
